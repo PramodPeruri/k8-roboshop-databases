@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: peruripramod/mongodb:v1
+        image: joindevops/mongodb:v1
         volumeMounts:
         - name: mongodb
           mountPath: /data/db
